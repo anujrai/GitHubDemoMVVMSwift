@@ -1,0 +1,18 @@
+# Uncomment the next line to define a global platform for your project
+//# platform :ios, '9.0'
+
+target 'GitHubDemo' do
+    use_frameworks!
+    platform :ios, '10.0'
+    pod 'ReachabilitySwift'
+end
+  target 'GitHubDemoTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'GitHubDemoUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
